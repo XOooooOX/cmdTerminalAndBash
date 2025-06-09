@@ -30,3 +30,5 @@ diff like fc
 cmp like fc /B
 
 p.bin | a.exe -> mohtaviat p.bin ro mide be a.exe
+
+echo -ne "\x31\xc0\x50..." | ndisasm -b 32 -  -> tabdil hex be moadel assembly
