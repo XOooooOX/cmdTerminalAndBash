@@ -1,0 +1,32 @@
+cmd or terminal:
+
+fc -> file compare 
+fc 1.txt 2.txt
+fc 1.txt 2.txt /B -> binary compare
+
+a.exe < p.bin -> mohtaviat p.bin ro mide be a.exe
+
+certutil -store my -> didan gavahi haye nasb shode
+certutil -decodehex -> tabdil hex be binary
+certutil -encoodehex -> tabdil binary be hex - bayad .bin bashad
+certutil -encode / -decode -> tabdil be base64
+certutil -urlcache -split -f -> download file az internet
+certutil -dump 1.exe -> tabdil binary be hex
+certutil -dump 1.exe > out.txt -> neveshtan khoroji dar file
+certutil -dump 1.exe >> out.txt -> ezafe kardan be entehaye file
+
+type 1.tx -> khandan file
+more 1.txy -> khandan file
+find "Ali" 2.jpg -> serarch roye file
+
+powershell:
+get-content file.txt -> khandan file
+cat file.txt -> khandan file
+-----------------------------------------------------------------------------------------------
+###############################################################################################
+-----------------------------------------------------------------------------------------------
+bash
+diff like fc
+cmp like fc /B
+
+p.bin | a.exe -> mohtaviat p.bin ro mide be a.exe
