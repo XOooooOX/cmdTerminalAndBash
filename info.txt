@@ -22,6 +22,11 @@ find "Ali" 2.jpg -> serarch roye file
 powershell:
 get-content file.txt -> khandan file
 cat file.txt -> khandan file
+
+objdump -d ./a.out -> khandan assmebely file
+
+systeminfo namayesh ettelat system
+mshta -> drayaft va baz kardan file haye .hta
 -----------------------------------------------------------------------------------------------
 ###############################################################################################
 -----------------------------------------------------------------------------------------------
@@ -32,3 +37,4 @@ cmp like fc /B
 p.bin | a.exe -> mohtaviat p.bin ro mide be a.exe
 
 echo -ne "\x31\xc0\x50..." | ndisasm -b 32 -  -> tabdil hex be moadel assembly
+objdump -d ./a.out -> khandan assmebely file
