@@ -38,3 +38,13 @@ p.bin | a.exe -> mohtaviat p.bin ro mide be a.exe
 
 echo -ne "\x31\xc0\x50..." | ndisasm -b 32 -  -> tabdil hex be moadel assembly
 objdump -d ./a.out -> khandan assmebely file
+
+
+| ابزار                  | کاربرد                                  |
+| ---------------------- | --------------------------------------- |
+| `top`, `htop`          | نمایش مصرف RAM توسط پروسس               |
+| `pmap <pid>`           | نقشه کامل حافظه‌ی پروسس                 |
+| `cat /proc/<pid>/maps` | دقیق‌ترین نمایش بخش‌های حافظه           |
+| `valgrind`             | بررسی نشت حافظه و دسترسی‌های غیرمجاز    |
+| `gdb`                  | دیباگر قدرتمند برای مشاهده استک و حافظه |
+
